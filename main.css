@@ -7,22 +7,45 @@ header{
     display: inline-block;
     width: 100%;
 }
+
+nav{
+    float: right;
+    width: 35%;
+    margin-right: 5%;
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5%;
+}
+
 main{
     display: inline-block;
     width: 100%;
     color: #1C2D33;
 }
+
 h1{
     font-size: 50px;
     font-weight: normal;
     margin: 0;
 }
+
+p:first-of-type{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
 hr{
     width: 7.5em;
     margin: 0;
     padding: 1px;
     background-color: #6ABDDD;
 }
+
 img{
     float: left;
     width: 50%;
