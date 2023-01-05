@@ -1,49 +1,77 @@
+body,
+body * {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
 body{
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-header{
+
+.container{
     padding-top: 25px;
     padding-bottom: 25px;
     display: inline-block;
     width: 100%;
+    color: #1C2D33;
 }
 
-nav{
+.logo{
+    float: left;
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu{
     float: right;
     width: 35%;
     margin-right: 5%;
     text-align: right;
 }
 
-a{
+.menu-item{
     text-decoration: none;
     color: black;
     margin-left: 5%;
 }
 
-main{
-    display: inline-block;
-    width: 100%;
-    color: #1C2D33;
+.left-column{
+    float: left;
+    width:35%;
+    margin-left: 5%;
+    margin-top: 120px;
 }
 
-h1{
+.title{
     font-size: 50px;
     font-weight: normal;
-    margin: 0;
+    margin-bottom: 20px;
 }
 
-p:first-of-type{
-    font-size: 50px;
+span{
     font-weight: bold;
-    margin: 0;
+    display: block;
 }
 
-hr{
-    width: 7.5em;
-    margin: 0;
-    padding: 1px;
+.title::after{
+    display: block;
+    content: '';
+    width: 3em;
+    height: 2px;
     background-color: #6ABDDD;
+}
+
+.description{
+    margin-bottom: 20px;
+}
+
+.button{
+    margin-left: 0; margin-top: 1px; background-color: #6CBEDD; float: left; color: #fff; text-decoration: none; font-weight: bold; border-radius: 20px; padding: 10px; padding-left: 20px; padding-right: 20px;
+}
+.button:last-of-type{
+    float: left; color: #1C2D33; text-decoration: none; border-color: #6CBEDD; border-width: 1px; border-style: solid; border-radius: 20px; padding: 10px; padding-left: 22px; padding-right: 22px; margin-left: 10px;
 }
 
 img{
