@@ -13,8 +13,9 @@ body{
     padding-top: 25px;
     padding-bottom: 25px;
     display: inline-block;
-    width: 100%;
     color: #1C2D33;
+    width: 1200px;
+    margin-left: calc(50% - 600px);
 }
 
 .logo{
@@ -91,4 +92,22 @@ span{
     float: left;
     width: 50%;
     margin-left: 10%;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 600px;
+        margin-left: calc(50% - 300px);
+    }
+    .menu {
+        width: 70%;
+    }
+    .left-column {
+        width: 70%;
+        margin-left: 10%;
+    }
+    .right-column {
+        width: 100%;
+        margin-left: 0;
+    }
 }
